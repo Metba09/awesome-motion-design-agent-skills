@@ -11,7 +11,7 @@
       "commit": "a2824c67f8b4585c294a8101db9f9f0ad3c643f8"
     }
   },
-  "fileCount": 93,
-  "manifestSha256": "e19109f400adbe72132fff40bec1c10f48c0a1a783f571b37c0bb56134cb8539",
+  "fileCount": 96,
+  "manifestSha256": "4673cbd26d99cb9247791679a2565610daf624a3976bf3a478c9a2932d0ab957",
   "network": "none required: stdlib Python 3 only, no package manager step"
 }

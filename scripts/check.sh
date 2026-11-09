@@ -22,6 +22,7 @@ step "media jobs match the schema"                  "$PY" scripts/validate-json.
 step "invalid fixtures are rejected"                "$PY" scripts/validate-json.py --expect-invalid tests/fixtures/invalid/*.json
 step "skill packages (payloads)"                    "$PY" scripts/verify-skill-packages.py
 step "offline guard (no network in the tooling)"    "$PY" scripts/offline-guard.py
+step "bundle pointer matches the lockfiles"         "$PY" scripts/sandbox/verify_bundle.py
 step "unit tests"                                   "$PY" -m unittest discover -s tests -p 'test_*.py'
 if [ -f MANIFEST.sha256 ]; then
   if "$PY" scripts/snapshot.py verify >/dev/null 2>&1; then summary+=("  OK   snapshot integrity")

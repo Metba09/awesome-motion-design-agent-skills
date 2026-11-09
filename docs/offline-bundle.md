@@ -37,3 +37,13 @@ make pack              # ZIP déterministe dans dist/bundle/
 - La skill Remotion, quand elle est restaurée, se lit mais ne s'exécute pas : Remotion exige Node, npm et un navigateur, absents du bundle.
 - `skills-lock.json` garde l'ancien `skillPath` de la skill Remotion (renommée en amont) : voir `vendor/PROVENANCE.json`.
 - La licence de la skill Remotion n'est pas explicite en amont : usage privé uniquement, jamais publiée dans ce dépôt.
+
+## Pointeur de bundle
+
+`sandbox/BUNDLE.json` (schéma 1) relie le dépôt à son miroir privé dans `claude-memory` (`livrables/awesome-motion-sandbox/`) et fige les entrées épinglées : `requirements.txt`, `skills-lock.json`, `vendor/PROVENANCE.json`.
+
+- **Le dépôt est la source de vérité, le livrable un miroir.** Le tarball est fabriqué par `git archive <source_commit>` avant la création du pointeur : un fichier ne peut pas contenir l'empreinte d'une archive qui le contient. Le pointeur est donc committé après, et `MANIFEST.sha256` l'exclut pour la même raison.
+- **Aucun wheel.** Il n'y a pas de dépendance tierce à re-télécharger ; le pointeur l'indique (`wheelhouse.packages: 0`) au lieu d'inventer une source.
+- **Vendorisé hors Git :** la skill `remotion-best-practices` (147 fichiers), uniquement dans le ZIP complet du livrable privé. Le pointeur en donne l'empreinte d'arbre.
+- Vérifier : `make verify-bundle`, ou avec le miroir `make verify-bundle ARGS="--livrable <dossier>"` (empreinte du tarball d'abord, ouverture ensuite).
+- Régénérer après un changement des entrées épinglées : reconstruire le tarball depuis le nouveau commit, puis `python3 scripts/sandbox/write_bundle.py --tarball … --source-commit … --full-bundle …`.

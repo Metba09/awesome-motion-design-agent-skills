@@ -27,7 +27,7 @@ fi
 
 if [ -f .env ]; then say ".env déjà présent (conservé)"; else cp .env.example .env; say ".env créé depuis .env.example (mode mock)"; fi
 mkdir -p dist out
-chmod +x setup.sh scripts/*.py scripts/*.sh 2>/dev/null || true
+chmod +x setup.sh scripts/*.sh 2>/dev/null || true   # les .py se lancent via python3 : pas de chmod, pour ne pas salir les fichiers suivis par Git
 
 if [ -f MANIFEST.sha256 ]; then
   "$PY" scripts/snapshot.py verify || say "AVERTISSEMENT: le contenu diffère du snapshot (fichiers modifiés depuis la création du bundle)"

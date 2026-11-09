@@ -27,6 +27,7 @@ make test           # tests unitaires seuls
 | Jobs média contre le schéma | `make schemas` |
 | Rejouer les exemples sans fournisseur | `make mock` (sorties dans `out/<id>/`) |
 | Construire et vérifier les 6 ZIP de skills | `make build` (dans `dist/`) |
+| Pointeur du bundle (`sandbox/BUNDLE.json`) | `make verify-bundle` ; avec le miroir : `make verify-bundle ARGS="--livrable <dossier>"` |
 | Après avoir modifié des fichiers | `make check`, puis `make snapshot` |
 
 ### Inutilisable dans le sandbox
@@ -44,6 +45,7 @@ make test           # tests unitaires seuls
 - Skill tierce (absente de ce dépôt public, licence amont non explicite) : `vendor/remotion-skills/remotion-best-practices/SKILL.md` si elle a été restaurée depuis l'archive privée ; provenance dans `vendor/PROVENANCE.json`, procédure dans `vendor/README.md`.
 - Contrats : `schemas/media-job.schema.json`, `configs/provider-routing.default.json`, `patterns/motion-pattern-registry.json`.
 - Détail du bundle et limites : `docs/offline-bundle.md`.
+- Pointeur lisible par script : `sandbox/BUNDLE.json` (empreintes des entrées épinglées, tarball miroir dans `claude-memory`). Si `requirements.txt`, `skills-lock.json` ou `vendor/PROVENANCE.json` changent, `make lint` échoue volontairement jusqu'à la mise à jour du pointeur (`scripts/sandbox/write_bundle.py`) et du livrable.
 
 ### Règles de session
 
