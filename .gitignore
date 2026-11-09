@@ -24,3 +24,10 @@ link-checker-report.txt
 
 # Local checkpoint patches
 .asph-wip/
+
+# Offline bundle
+!.env.example
+out/
+dist/
+.setup.stamp
+vendor/remotion-skills/

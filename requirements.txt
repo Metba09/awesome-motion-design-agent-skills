@@ -1,0 +1,2 @@
+# Python dependencies. None today: every script uses the standard library only.
+# If you add some, vendor the wheels into vendor/wheels so setup.sh can install them with --no-index.

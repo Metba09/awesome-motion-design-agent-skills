@@ -1,0 +1,55 @@
+{
+  "id": "hero-style-frame",
+  "brand": "internal",
+  "surface": "website-hero",
+  "taskType": "style-frame",
+  "brief": {
+    "audience": "Visitors of a documentation site",
+    "objective": "Set a calm, precise visual direction",
+    "viewerAction": "Keep reading the page",
+    "brandRole": "Quiet signature, not a logo wall",
+    "constraints": [
+      "Static hierarchy first",
+      "No text baked into pixels"
+    ]
+  },
+  "output": {
+    "formats": [
+      "png",
+      "webp"
+    ],
+    "aspectRatios": [
+      "16:9"
+    ],
+    "durationSeconds": 0,
+    "fps": 24
+  },
+  "routing": {
+    "mode": "dry-run",
+    "primaryProvider": "codex-imagegen",
+    "fallbackProviders": [
+      "grok-build-cli",
+      "figma"
+    ],
+    "reason": "Still frames are cheaper than motion before direction is approved."
+  },
+  "prompts": {
+    "imagePrompt": "Soft gradient field with one sharp geometric accent, editorial lighting",
+    "negativePrompt": "stock photo people, watermarks"
+  },
+  "qa": {
+    "checks": [
+      "first-frame-works-as-still",
+      "target-crop-safe",
+      "rights-provenance-complete"
+    ]
+  },
+  "provenance": {
+    "createdBy": "sample-data",
+    "createdAt": "2026-11-08T09:00:00Z",
+    "provider": "mock-local",
+    "model": "mock-v1",
+    "licenseNotes": "Synthetic sample for offline tests. No third-party material.",
+    "publicationRisk": "low"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "product-demo-capture",
+  "brand": "internal",
+  "surface": "product-demo",
+  "taskType": "web-motion-capture",
+  "brief": {
+    "audience": "Prospective users evaluating a dashboard",
+    "objective": "Show the real UI reacting to input",
+    "viewerAction": "Start a trial",
+    "brandRole": "Product first, brand second",
+    "constraints": [
+      "Capture the real app",
+      "Blur any personal data"
+    ]
+  },
+  "output": {
+    "formats": [
+      "mp4",
+      "webm"
+    ],
+    "aspectRatios": [
+      "16:9",
+      "1:1"
+    ],
+    "durationSeconds": 20,
+    "fps": 60
+  },
+  "routing": {
+    "mode": "dry-run",
+    "primaryProvider": "playwright",
+    "fallbackProviders": [
+      "remotion",
+      "ffmpeg"
+    ],
+    "reason": "Real product demos are captured first, then packaged."
+  },
+  "prompts": {
+    "systemNotes": "Use seeded demo data only."
+  },
+  "qa": {
+    "checks": [
+      "target-crop-safe",
+      "no-sensitive-data",
+      "file-size-ok"
+    ]
+  },
+  "provenance": {
+    "createdBy": "sample-data",
+    "createdAt": "2026-11-08T09:00:00Z",
+    "provider": "mock-local",
+    "model": "mock-v1",
+    "licenseNotes": "Synthetic sample for offline tests. No third-party material.",
+    "publicationRisk": "low"
+  },
+  "finishing": {
+    "ffmpegRecipe": "h264-web-1080p",
+    "posterFrame": true
+  }
+}
