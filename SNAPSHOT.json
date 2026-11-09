@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-08T08:00:00+00:00",
+  "upstream": {
+    "repository": "Metba09/awesome-motion-design-agent-skills",
+    "commit": "56d9a77baf143b604d9735bc23f6589b05056a53"
+  },
+  "vendored": {
+    "remotion-best-practices": {
+      "repository": "remotion-dev/skills",
+      "commit": "a2824c67f8b4585c294a8101db9f9f0ad3c643f8"
+    }
+  },
+  "fileCount": 93,
+  "manifestSha256": "e19109f400adbe72132fff40bec1c10f48c0a1a783f571b37c0bb56134cb8539",
+  "network": "none required: stdlib Python 3 only, no package manager step"
+}

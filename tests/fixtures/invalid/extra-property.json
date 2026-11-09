@@ -1,0 +1,60 @@
+{
+  "id": "social-vertical-remotion",
+  "brand": "internal",
+  "surface": "social-vertical",
+  "taskType": "remotion-finish",
+  "brief": {
+    "audience": "Mobile viewers scrolling a feed",
+    "objective": "Explain one idea in eight seconds",
+    "viewerAction": "Save the post",
+    "brandRole": "Closing lockup only"
+  },
+  "output": {
+    "formats": [
+      "mp4",
+      "gif"
+    ],
+    "aspectRatios": [
+      "9:16"
+    ],
+    "durationSeconds": 8,
+    "fps": 30,
+    "hasAudio": false,
+    "fileSizeTargetMb": 8
+  },
+  "routing": {
+    "mode": "dry-run",
+    "primaryProvider": "remotion",
+    "fallbackProviders": [
+      "ffmpeg"
+    ],
+    "reason": "Exact layout and typography: render deterministically."
+  },
+  "prompts": {
+    "videoPrompt": "Three-beat typographic explainer with a clean loop",
+    "systemNotes": "Captions burned in."
+  },
+  "qa": {
+    "checks": [
+      "text-legible",
+      "loop-clean",
+      "reduced-motion-fallback",
+      "file-size-ok"
+    ]
+  },
+  "provenance": {
+    "createdBy": "sample-data",
+    "createdAt": "2026-11-08T09:00:00Z",
+    "provider": "mock-local",
+    "model": "mock-v1",
+    "licenseNotes": "Synthetic sample for offline tests. No third-party material.",
+    "publicationRisk": "low"
+  },
+  "finishing": {
+    "remotionComposition": "ExplainerVertical",
+    "captions": true,
+    "logoLockup": true,
+    "posterFrame": true
+  },
+  "surprise": true
+}

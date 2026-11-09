@@ -1,0 +1,441 @@
+{
+  "note": "External URLs are NOT fetched offline; this is an inventory, not a verdict.",
+  "count": 70,
+  "urls": {
+    "https://agentskills.io/specification": {
+      "kind": "link",
+      "where": [
+        "docs/skill-verification.md:117"
+      ]
+    },
+    "https://animejs.com/documentation/": {
+      "kind": "link",
+      "where": [
+        "rankings/best-motion-design-stack.md:22"
+      ]
+    },
+    "https://awesome.re/badge.svg": {
+      "kind": "remote-image",
+      "where": [
+        "README.md:1"
+      ]
+    },
+    "https://developers.lottiefiles.com/docs/dotlottie-player/dotlottie-web/": {
+      "kind": "link",
+      "where": [
+        "rankings/best-motion-design-stack.md:21"
+      ]
+    },
+    "https://github.com/AbubakrChan/product-launch-motion": {
+      "kind": "link",
+      "where": [
+        "README.md:95"
+      ]
+    },
+    "https://github.com/EminBudak/launch-film": {
+      "kind": "link",
+      "where": [
+        "README.md:96"
+      ]
+    },
+    "https://github.com/FFmpeg/FFmpeg": {
+      "kind": "link",
+      "where": [
+        "rankings/best-motion-design-stack.md:14"
+      ]
+    },
+    "https://github.com/LottieFiles/dotlottie-web": {
+      "kind": "link",
+      "where": [
+        "README.md:90"
+      ]
+    },
+    "https://github.com/LottieFiles/dotlottie-web/blob/main/SKILL.md": {
+      "kind": "link",
+      "where": [
+        "rankings/best-motion-design-stack.md:21"
+      ]
+    },
+    "https://github.com/LottieFiles/motion-design-skill": {
+      "kind": "link",
+      "where": [
+        "README.md:72",
+        "rankings/best-motion-design-stack.md:21"
+      ]
+    },
+    "https://github.com/NVIDIA/SkillSpector": {
+      "kind": "link",
+      "where": [
+        "GETTING_STARTED.md:63",
+        "README.md:76"
+      ]
+    },
+    "https://github.com/Orkas-AI/Orkas-VideoStudio": {
+      "kind": "link",
+      "where": [
+        "README.md:73",
+        "rankings/best-motion-design-stack.md:12"
+      ]
+    },
+    "https://github.com/SHARPLEE00/lookbk-skills": {
+      "kind": "link",
+      "where": [
+        "README.md:97"
+      ]
+    },
+    "https://github.com/agentskills/agentskills": {
+      "kind": "link",
+      "where": [
+        "README.md:93"
+      ]
+    },
+    "https://github.com/frankxai/awesome-agent-operating-systems": {
+      "kind": "link",
+      "where": [
+        "README.md:130"
+      ]
+    },
+    "https://github.com/frankxai/awesome-agentic-income": {
+      "kind": "link",
+      "where": [
+        "README.md:134"
+      ]
+    },
+    "https://github.com/frankxai/awesome-ai-coe": {
+      "kind": "link",
+      "where": [
+        "README.md:130"
+      ]
+    },
+    "https://github.com/frankxai/awesome-automation-agent-skills": {
+      "kind": "link",
+      "where": [
+        "README.md:130"
+      ]
+    },
+    "https://github.com/frankxai/awesome-cosmos-ai-agents": {
+      "kind": "link",
+      "where": [
+        "README.md:136"
+      ]
+    },
+    "https://github.com/frankxai/awesome-design-agent-skills": {
+      "kind": "link",
+      "where": [
+        "README.md:132"
+      ]
+    },
+    "https://github.com/frankxai/awesome-gamification-agent-skills": {
+      "kind": "link",
+      "where": [
+        "README.md:132"
+      ]
+    },
+    "https://github.com/frankxai/awesome-hermes-agent-skills": {
+      "kind": "link",
+      "where": [
+        "README.md:130"
+      ]
+    },
+    "https://github.com/frankxai/awesome-hermes-agent-skills/blob/main/docs/EARNED-SKILLS.md": {
+      "kind": "link",
+      "where": [
+        "README.md:66"
+      ]
+    },
+    "https://github.com/frankxai/awesome-hermes-agent-skills/blob/main/docs/QUALITY-AND-SAFETY.md": {
+      "kind": "link",
+      "where": [
+        "README.md:66"
+      ]
+    },
+    "https://github.com/frankxai/awesome-hermes-agents": {
+      "kind": "link",
+      "where": [
+        "README.md:130"
+      ]
+    },
+    "https://github.com/frankxai/awesome-investor-agent-skills": {
+      "kind": "link",
+      "where": [
+        "README.md:134"
+      ]
+    },
+    "https://github.com/frankxai/awesome-manifestation-skills": {
+      "kind": "link",
+      "where": [
+        "README.md:136"
+      ]
+    },
+    "https://github.com/frankxai/awesome-mind-agent-skills": {
+      "kind": "link",
+      "where": [
+        "README.md:136"
+      ]
+    },
+    "https://github.com/frankxai/awesome-motion-design-agent-skills/releases/download/skills-latest/generative-media-director.zip": {
+      "kind": "link",
+      "where": [
+        "README.md:45"
+      ]
+    },
+    "https://github.com/frankxai/awesome-motion-design-agent-skills/releases/download/skills-latest/motion-director.zip": {
+      "kind": "link",
+      "where": [
+        "README.md:42"
+      ]
+    },
+    "https://github.com/frankxai/awesome-motion-design-agent-skills/releases/download/skills-latest/remotion-video-agent.zip": {
+      "kind": "link",
+      "where": [
+        "README.md:44"
+      ]
+    },
+    "https://github.com/frankxai/awesome-motion-design-agent-skills/releases/download/skills-latest/site-motion-excellence-director.zip": {
+      "kind": "link",
+      "where": [
+        "README.md:43"
+      ]
+    },
+    "https://github.com/frankxai/awesome-motion-design-agent-skills/releases/download/skills-latest/web-motion-auditor.zip": {
+      "kind": "link",
+      "where": [
+        "README.md:46"
+      ]
+    },
+    "https://github.com/frankxai/awesome-motion-design-agent-skills/releases/tag/skills-latest": {
+      "kind": "link",
+      "where": [
+        "README.md:29"
+      ]
+    },
+    "https://github.com/frankxai/awesome-music-agent-skills": {
+      "kind": "link",
+      "where": [
+        "README.md:132"
+      ]
+    },
+    "https://github.com/frankxai/awesome-payment-agent-skills": {
+      "kind": "link",
+      "where": [
+        "README.md:134"
+      ]
+    },
+    "https://github.com/frankxai/awesome-wealth-agent-skills": {
+      "kind": "link",
+      "where": [
+        "README.md:134"
+      ]
+    },
+    "https://github.com/garrytan/gstack": {
+      "kind": "link",
+      "where": [
+        "README.md:74"
+      ]
+    },
+    "https://github.com/greensock/GSAP": {
+      "kind": "link",
+      "where": [
+        "README.md:84"
+      ]
+    },
+    "https://github.com/greensock/gsap-skills": {
+      "kind": "link",
+      "where": [
+        "README.md:70",
+        "docs/skill-verification.md:110",
+        "rankings/best-motion-design-stack.md:10"
+      ]
+    },
+    "https://github.com/juliangarnier/anime": {
+      "kind": "link",
+      "where": [
+        "README.md:88"
+      ]
+    },
+    "https://github.com/mdagnolops/1human-reels": {
+      "kind": "link",
+      "where": [
+        "README.md:92"
+      ]
+    },
+    "https://github.com/motiondivision/motion": {
+      "kind": "link",
+      "where": [
+        "README.md:85"
+      ]
+    },
+    "https://github.com/nexu-io/open-design": {
+      "kind": "link",
+      "where": [
+        "README.md:75"
+      ]
+    },
+    "https://github.com/phaserjs/phaser": {
+      "kind": "link",
+      "where": [
+        "README.md:91"
+      ]
+    },
+    "https://github.com/pmndrs/react-three-fiber": {
+      "kind": "link",
+      "where": [
+        "README.md:86"
+      ]
+    },
+    "https://github.com/remotion-dev/remotion": {
+      "kind": "link",
+      "where": [
+        "README.md:87"
+      ]
+    },
+    "https://github.com/remotion-dev/skills": {
+      "kind": "link",
+      "where": [
+        "README.md:71",
+        "docs/skill-verification.md:111",
+        "skills/remotion-video-agent/SKILL.md:19"
+      ]
+    },
+    "https://github.com/rive-app/rive-wasm": {
+      "kind": "link",
+      "where": [
+        "README.md:89"
+      ]
+    },
+    "https://github.com/vercel-labs/skills": {
+      "kind": "link",
+      "where": [
+        "GETTING_STARTED.md:7",
+        "README.md:94",
+        "docs/skill-verification.md:74"
+      ]
+    },
+    "https://gsap.com/docs/v3/": {
+      "kind": "link",
+      "where": [
+        "docs/skill-verification.md:120",
+        "rankings/best-motion-design-stack.md:10",
+        "skills/motion-director/SKILL.md:38",
+        "skills/site-motion-excellence-director/SKILL.md:57"
+      ]
+    },
+    "https://img.shields.io/badge/Claude%20Code-plugin-D97757?style=for-the-badge&logo=anthropic&logoColor=white": {
+      "kind": "remote-image",
+      "where": [
+        "README.md:10"
+      ]
+    },
+    "https://img.shields.io/badge/Claude.ai%20%2F%20Cowork-download%20.zip-D97757?style=for-the-badge&logo=anthropic&logoColor=white": {
+      "kind": "remote-image",
+      "where": [
+        "README.md:10"
+      ]
+    },
+    "https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat": {
+      "kind": "remote-image",
+      "where": [
+        "README.md:7"
+      ]
+    },
+    "https://img.shields.io/badge/npx%20skills%20add-any%20agent-000000?style=for-the-badge&logo=npm": {
+      "kind": "remote-image",
+      "where": [
+        "README.md:10"
+      ]
+    },
+    "https://img.shields.io/github/last-commit/frankxai/awesome-motion-design-agent-skills?style=flat": {
+      "kind": "remote-image",
+      "where": [
+        "README.md:7"
+      ]
+    },
+    "https://img.shields.io/github/stars/frankxai/awesome-motion-design-agent-skills?style=flat": {
+      "kind": "remote-image",
+      "where": [
+        "README.md:7"
+      ]
+    },
+    "https://lottiefiles.github.io/lottie-docs/": {
+      "kind": "link",
+      "where": [
+        "rankings/best-motion-design-stack.md:21"
+      ]
+    },
+    "https://motion.dev/docs": {
+      "kind": "link",
+      "where": [
+        "rankings/best-motion-design-stack.md:9",
+        "skills/motion-director/SKILL.md:38",
+        "skills/site-motion-excellence-director/SKILL.md:57"
+      ]
+    },
+    "https://motion.dev/docs/performance": {
+      "kind": "link",
+      "where": [
+        "docs/skill-verification.md:118"
+      ]
+    },
+    "https://motion.dev/docs/react-motion-config": {
+      "kind": "link",
+      "where": [
+        "docs/skill-verification.md:119"
+      ]
+    },
+    "https://playwright.dev/docs/videos": {
+      "kind": "link",
+      "where": [
+        "rankings/best-motion-design-stack.md:13"
+      ]
+    },
+    "https://reels.1human.tech/": {
+      "kind": "link",
+      "where": [
+        "README.md:99"
+      ]
+    },
+    "https://rive.app/": {
+      "kind": "link",
+      "where": [
+        "rankings/best-motion-design-stack.md:20"
+      ]
+    },
+    "https://threejs.org/": {
+      "kind": "link",
+      "where": [
+        "rankings/best-motion-design-stack.md:24"
+      ]
+    },
+    "https://threejs.org/docs/": {
+      "kind": "link",
+      "where": [
+        "skills/site-motion-excellence-director/SKILL.md:57"
+      ]
+    },
+    "https://www.remotion.dev/": {
+      "kind": "link",
+      "where": [
+        "rankings/best-motion-design-stack.md:11"
+      ]
+    },
+    "https://www.remotion.dev/docs/": {
+      "kind": "link",
+      "where": [
+        "docs/skill-verification.md:121",
+        "skills/remotion-video-agent/SKILL.md:19"
+      ]
+    },
+    "https://www.remotion.dev/docs/ai/": {
+      "kind": "link",
+      "where": [
+        "rankings/best-motion-design-stack.md:11"
+      ]
+    },
+    "https://www.theatrejs.com/": {
+      "kind": "link",
+      "where": [
+        "rankings/best-motion-design-stack.md:23"
+      ]
+    }
+  }
+}

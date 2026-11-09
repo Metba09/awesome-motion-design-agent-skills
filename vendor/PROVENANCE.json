@@ -1,0 +1,18 @@
+{
+  "name": "remotion-best-practices",
+  "source": {
+    "repository": "remotion-dev/skills",
+    "commit": "a2824c67f8b4585c294a8101db9f9f0ad3c643f8",
+    "path": "skills/remotion-best-practices",
+    "version": "4.0.541"
+  },
+  "fetchedAt": "2026-11-08",
+  "fileCount": 147,
+  "treeSha256": "a11167b34958113978085f74dfc21b25b80f9ae2e07d46f0401abb70977d3987",
+  "license": "No LICENSE file in the upstream repository at this commit. Remotion itself is under its own license terms (https://www.remotion.dev/docs/license). Treated as all rights reserved: private sandbox use only.",
+  "redistribution": "Do not publish, do not add to skills/, do not include in release ZIPs.",
+  "knownUpstreamIssues": [
+    "remotion-markup/timing-props.md links to an anchor that no longer exists in remotion-interactivity/REFERENCE.md"
+  ],
+  "lockfileNote": "skills-lock.json still records skillPath skills/remotion/SKILL.md; upstream renamed it skills/remotion-best-practices/. The lock was left unchanged because its computedHash algorithm is not reproduced here."
+}
