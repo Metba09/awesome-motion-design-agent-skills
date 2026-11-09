@@ -17,7 +17,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDE_DIRS = {".git", "dist", "out", "__pycache__", "node_modules", ".pytest_cache"}
-EXCLUDE_FILES = {".env", "MANIFEST.sha256", "SNAPSHOT.json"}
+EXCLUDE_FILES = {".env", "MANIFEST.sha256", "SNAPSHOT.json", "BUNDLE.json"}
 FIXED_DATE = (2026, 1, 1, 0, 0, 0)
 TOP = "awesome-motion-design-sandbox"
 

@@ -2,7 +2,7 @@
 SHELL := bash
 PYTHON ?= python3
 .DEFAULT_GOAL := help
-.PHONY: help setup check test validate lint format links schemas skills guard mock build snapshot verify-snapshot pack offline clean
+.PHONY: help setup check test validate lint format links schemas skills guard mock build snapshot verify-snapshot verify-bundle pack offline clean
 
 help: ## List targets
 	@grep -E '^[a-z-]+:.*## ' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  make %-16s %s\n", $$1, $$2}'
@@ -36,6 +36,8 @@ snapshot: ## Refresh MANIFEST.sha256 and SNAPSHOT.json
 	$(PYTHON) scripts/snapshot.py create
 verify-snapshot: ## Fail if a file differs from MANIFEST.sha256
 	$(PYTHON) scripts/snapshot.py verify
+verify-bundle: ## BUNDLE.json vs repo (add ARGS="--livrable DIR" to check the mirror too)
+	$(PYTHON) scripts/sandbox/verify_bundle.py $(ARGS)
 pack: ## Deterministic bundle ZIP in dist/bundle/
 	mkdir -p dist/bundle && $(PYTHON) scripts/snapshot.py pack dist/bundle/awesome-motion-design-sandbox.zip
 offline: ## Run `make check` with the network cut (isolated namespace)

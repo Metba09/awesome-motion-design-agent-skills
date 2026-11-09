@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "note": "Le dépôt est la source de vérité ; le livrable est un miroir. Ce fichier est committé APRÈS le tarball : il n'y est donc pas (empreinte circulaire).",
+  "upstream_base": "56d9a77baf143b604d9735bc23f6589b05056a53",
+  "branch": "main",
+  "python": {
+    "minimum": "3.9",
+    "tested": "3.12.3",
+    "source": "setup.sh"
+  },
+  "wheelhouse": {
+    "packages": 0,
+    "source": null,
+    "verified_by": null,
+    "stored_in_git": false,
+    "size_bytes": 0,
+    "refetch": null,
+    "note": "Aucune dépendance Python ni Node : bibliothèque standard uniquement (requirements.txt ne contient que des commentaires). Rien à re-télécharger."
+  },
+  "lockfiles_sha256": {
+    "requirements.txt": "5fab1413ec6d3abe343574bb95282dfe4ae94155b795755ee3230b296c381004",
+    "skills-lock.json": "4d7827624a682f172c256552b7a438a7e87a5f2a5465c38ab818780d5a2c9217",
+    "vendor/PROVENANCE.json": "1b121b10983b084c4071450b16d646b524804c2d92551b5cb857ca22c9048d2b"
+  },
+  "bundle": {
+    "repo": "Metba09/claude-memory (privé)",
+    "path": "livrables/awesome-motion-sandbox/",
+    "tarball": "awesome-motion-sandbox-source.tar.gz",
+    "tarball_sha256": "8d99553932c1d98fb1498810be88ae60315a6aecbc60a8a023c89a0f64b183f8",
+    "source_commit": "b4a87dff3fcf89e5efc4c53a0173f5a8760107b5"
+  },
+  "full_bundle": {
+    "file": "awesome-motion-design-sandbox.zip",
+    "sha256": "0f3b99fa760f7d23dd9725f79c7721e012db111b1ad11b8b18c6d35271263822",
+    "adds": "vendor/remotion-skills/ (privé uniquement, licence amont non explicite)"
+  },
+  "third_party_vendored": [
+    {
+      "name": "remotion-best-practices",
+      "repository": "remotion-dev/skills",
+      "commit": "a2824c67f8b4585c294a8101db9f9f0ad3c643f8",
+      "files": 147,
+      "size_bytes": 1185893,
+      "tree_sha256": "a11167b34958113978085f74dfc21b25b80f9ae2e07d46f0401abb70977d3987",
+      "stored_in_git": false
+    }
+  ],
+  "not_vendored": "Les autres skills et dépôts tiers cités dans README.md ne sont pas vendorisés."
+}

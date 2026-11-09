@@ -63,7 +63,7 @@ def shell_findings(path):
 
 
 def targets(root):
-    for pattern in ("scripts/*.py", "scripts/*.sh", "tests/*.py", "setup.sh", "Makefile"):
+    for pattern in ("scripts/*.py", "scripts/*.sh", "scripts/sandbox/*.py", "tests/*.py", "setup.sh", "Makefile"):
         yield from sorted(root.glob(pattern))
 
 
